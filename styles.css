@@ -256,3 +256,14 @@ footer {
     border-radius: 5px;
     padding: 15px;
 }
+
+.conteneur-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteneur-image img {
+    max-width: 800px; /* Largeur maximale */
+    max-height: 600px; /* Hauteur maximale */
+}
