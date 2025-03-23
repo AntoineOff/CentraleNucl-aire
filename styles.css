@@ -267,3 +267,44 @@ footer {
     max-width: 800px; /* Largeur maximale */
     max-height: 600px; /* Hauteur maximale */
 }
+
+/* Styles pour les profils des fondateurs */
+.founder-profile {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    gap: 1.5rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Rend l'image circulaire */
+    object-fit: cover; /* Assure que l'image remplisse bien le cercle */
+    border: 3px solid #1e40af; /* Bordure bleue pour cohérence avec le thème */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.founder-info h3 {
+    font-size: 1.5rem;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+}
+
+.founder-info p {
+    font-size: 1.1rem;
+    color: #4b5563;
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 768px) {
+    .founder-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
